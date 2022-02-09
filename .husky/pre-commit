@@ -3,9 +3,9 @@
 
 
 yarn check-types ||
-(echo'asdasdasdasd';
+    (echo'Error';
 false;)
-yarn check-lint ||(echo'asdasdasdasd';
+yarn check-lint ||(echo'Error';
 false;)
-yarn format ||(echo'asdasdasdasd';
+yarn format ||(echo'Error';
 false;)
