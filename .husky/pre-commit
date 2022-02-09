@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+
+yarn check-types ||
+(echo'asdasdasdasd';
+false;)
+yarn check-lint ||(echo'asdasdasdasd';
+false;)
+yarn format ||(echo'asdasdasdasd';
+false;)
