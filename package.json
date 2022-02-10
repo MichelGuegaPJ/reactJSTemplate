@@ -53,10 +53,5 @@
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.0",
     "prettier": "^2.5.1"
-  },
-  "husky": {
-    "hooks ": {
-      "pre-commit": "prettier --write . && git add -A ."
-    }
   }
 }
